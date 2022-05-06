@@ -1,0 +1,6 @@
+{
+  "culture": "en",
+  "texts": {
+    "blog:010101": "User identity profile not unique(at least one name, email, or mobile exists)"
+  }
+}

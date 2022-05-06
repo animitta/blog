@@ -1,0 +1,45 @@
+:root[theme="default"] {
+  --theme-color: #fefefe;
+  --theme-text-color: #333;
+  --theme-primary-color: #409eff;
+  --theme-danger-color: #42b983;
+  --theme-secondary-color: #9a9a9a;
+  --theme-active-color: #efefef;
+  --theme-bg-color: rgba(255, 255, 255, 0.78);
+  --theme-gutter-size: 16px;
+  --max-width-size: 2200px;
+  --progress-width-size: 3px;
+}
+
+:root[theme="dark"] {
+  --theme-color: #000;
+}
+
+:root[theme="highlight"] {
+  --theme-color: #fff;
+}
+
+
+
+(
+    'white': #ffffff,
+    'black': #000000,
+    'primary': (
+      'base': #409eff,
+    ),
+    'success': (
+      'base': #67c23a,
+    ),
+    'warning': (
+      'base': #e6a23c,
+    ),
+    'danger': (
+      'base': #f56c6c,
+    ),
+    'error': (
+      'base': #f56c6c,
+    ),
+    'info': (
+      'base': #909399,
+    ),
+  ),

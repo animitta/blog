@@ -1,0 +1,31 @@
+root = true
+
+# Global
+[*]
+tab_width = 4
+indent_size = 4
+charset = utf-8
+indent_style = space
+insert_final_newline = false
+trim_trailing_whitespace = true
+
+# Solution
+[*.sln]
+indent_style = tab
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
+
+# XML
+[*.{csproj}]
+indent_size = 2
+
+# Configuration
+[*.{json,xml,yml,config,props,targets,nuspec,resx,ruleset}]
+indent_size = 2
+
+# CSharp
+[*.cs]
+end_of_line = lf
+insert_final_newline = true
